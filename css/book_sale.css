@@ -1,0 +1,63 @@
+.form-wapper {
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 300px;
+  }
+  
+  h1 {
+    text-align: center;  
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  #prevBtn {
+    background-color: #ffffff;
+    color: #3b3b3b;
+    border-color: #a3a3a3;
+    margin-right: 15px;
+  }
+  #prevBtn:hover {
+    background-color: transparent;
+    border: 3px solid var(--main-color);
+    color: var(--main-color);
+  }
+/* book card */
+
+.book-sale-card{
+  height: 130px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.book-sale-card img{
+  height: 120px;
+  width: 80px;
+  position: absolute;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.card-header-title{
+  margin: 10px 20px 10px 130px;
+}
+
+#step-form{
+  margin-top: 30px;
+  margin-right: 15px;
+}
